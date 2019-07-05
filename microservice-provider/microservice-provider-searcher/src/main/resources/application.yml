@@ -1,0 +1,13 @@
+server:
+  port: 8804
+
+spring:
+  application:
+    name: @pom.name@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
