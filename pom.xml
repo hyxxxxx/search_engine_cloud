@@ -20,7 +20,8 @@
         <module>microservice-eureka</module>
         <module>microservice-provider</module>
         <module>microservice-consumer</module>
-        <module>microservice-zuul</module>
+        <module>microservice-gateway</module>
+        <module>microservice-turbine</module>
     </modules>
 
     <properties>
